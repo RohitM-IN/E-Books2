@@ -9,7 +9,7 @@ sheet = wb.sheet_by_index(0)
 # For row 0 and column 0
 sheet.cell_value(0, 0)
 
-for i in range(sheet.ncols):
+for i in range(199):
     data = sheet.row_values(i)
     url = data[0]
     name = data[1]
